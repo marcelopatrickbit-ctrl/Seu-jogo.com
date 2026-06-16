@@ -1,0 +1,102 @@
+{
+  "app_name": "seu jogo.com",
+  "version": "1.0.0",
+  "description": "Plataforma de transmissão de jogos ao vivo - Portuguese",
+  "personality": "7 Dark-First Utility",
+  "vibe": "Eletrizante, High-Performance, Professional",
+  "platforms": ["iPhone iOS", "Android TV", "Android Mobile"],
+  "color_palette": {
+    "primary": {
+      "obsidian_dark": "#0A0E27",
+      "obsidian_medium": "#1a1f3a",
+      "obsidian_light": "#2d3250"
+    },
+    "accent": {
+      "electric_orange": "#FF6B35",
+      "orange_hover": "#E85A25",
+      "orange_light": "#FFB380"
+    },
+    "semantic": {
+      "success": "#4CAF50",
+      "warning": "#FFC107",
+      "error": "#F44336",
+      "info": "#2196F3"
+    },
+    "neutral": {
+      "white": "#FFFFFF",
+      "gray_light": "#F5F5F5",
+      "gray_medium": "#9E9E9E",
+      "gray_dark": "#424242"
+    }
+  },
+  "typography": {
+    "font_family": "Inter, -apple-system, BlinkMacSystemFont",
+    "sizes": {
+      "h1": 32,
+      "h2": 24,
+      "h3": 20,
+      "body_large": 16,
+      "body_medium": 14,
+      "body_small": 12,
+      "caption": 10
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48
+  },
+  "border_radius": {
+    "none": 0,
+    "sm": 4,
+    "md": 8,
+    "lg": 16,
+    "xl": 24,
+    "full": 9999
+  },
+  "key_features": {
+    "free_preview_duration": 300,
+    "preview_duration_label": "5 minutos de transmissão gratuita",
+    "paywall_price": 2.5,
+    "paywall_currency": "BRL",
+    "paywall_method": "PIX",
+    "countdown_component": "ProgressiveCountdown",
+    "payment_gateway": "stripe_pix"
+  },
+  "screens": [
+    "Auth (Login/Register)",
+    "Email Verification",
+    "Home Feed",
+    "Daily Announcement Banner",
+    "Live Player (with 5-min countdown)",
+    "Payment Paywall (PIX)",
+    "User Profile",
+    "Watch History",
+    "Admin Panel (games, stream URL, announcements)"
+  ],
+  "responsive": {
+    "mobile": {
+      "width_min": 375,
+      "width_max": 812,
+      "orientation": ["portrait", "landscape"]
+    },
+    "tablet": {
+      "width_min": 768,
+      "width_max": 1024
+    },
+    "tv": {
+      "width_min": 1280,
+      "width_max": 3840,
+      "focus_navigation": true
+    }
+  }
+}
